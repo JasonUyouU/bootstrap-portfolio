@@ -1,0 +1,26 @@
+html, body, header , #intro {
+	height: 100%;
+}
+
+#intro {
+	background: url('../img/background.png') no-repeat center center fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+}
+
+#aboutMe img {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+}
+
+#bpImage {
+	height: 375px;
+	background: url('../img/coding.png') no-repeat center center fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+}
