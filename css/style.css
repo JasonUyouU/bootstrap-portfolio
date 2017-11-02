@@ -17,10 +17,6 @@ html, body, header , #intro {
 	background-size:cover;
 }
 
-.top-nav-collapse {
-	background-color: black;
-}
-
 #aboutMe img {
 	height: 300px;
 	width: 300px;
@@ -43,3 +39,18 @@ nav.shrink {
 		background-color: #24355c;
 	}
 }
+footer{
+	background-color: #24355c;
+	color:white;
+}
+.about, .skill, .projectInfo, .leftTop, .middleTop, .rightTop, .leftBottom, .middleBottom, .rightBottom, .contactMe {
+	opacity: 0;
+	-webkit-animation-duration: 1.5s;
+	-moz-animation-duration: 1.5s;
+	-o-animation-duration: 1.5s;
+	animation-duration: 1.5s;
+}
+.visible {
+	opacity: 1;
+}
+
